@@ -1,0 +1,172 @@
+import { Question } from './types';
+
+export const QUESTIONS: Question[] = [
+  {
+    id: 1,
+    section: 'Section 1: Focus & Attention',
+    text: 'How long can you focus on a single task without interruption?',
+    options: ['0–5 min', '5–15 min', '15–30 min', '30+ min'],
+  },
+  {
+    id: 2,
+    section: 'Section 1: Focus & Attention',
+    text: 'When learning something new, do you prefer instructions that are:',
+    options: ['Written/Textual', 'Visual/Diagrams', 'Hands-on/Practical', 'Spoken/Audio'],
+  },
+  {
+    id: 3,
+    section: 'Section 2: Cognitive Processing',
+    text: 'How do you typically organize your thoughts?',
+    options: ['Linear lists', 'Mind maps/Spacial', 'Talking it out', 'Physical prototypes'],
+  },
+  {
+    id: 4,
+    section: 'Section 2: Cognitive Processing',
+    text: 'When faced with a complex problem, your first instinct is to:',
+    options: ['Break it down', 'Look for patterns', 'Discuss with others', 'Start experimenting'],
+  },
+  {
+    id: 5,
+    section: 'Section 3: Learning Environment',
+    text: 'How do you handle background noise while studying?',
+    options: ['Need total silence', 'Soft ambient music', 'White noise', 'Can work anywhere'],
+  },
+  {
+    id: 6,
+    section: 'Section 3: Learning Environment',
+    text: 'What time of day do you feel your cognitive peak?',
+    options: ['Early Dawn', 'High Noon', 'Twilight', 'Deep Night'],
+  },
+  {
+    id: 7,
+    section: 'Section 4: Retention & Memory',
+    text: 'Which medium helps you retain information best?',
+    options: ['Reading books', 'Watching videos', 'Listening to podcasts', 'Building models'],
+  },
+  {
+    id: 8,
+    section: 'Section 4: Retention & Memory',
+    text: 'What is your preferred way to take notes?',
+    options: ['Digital typing', 'Hand-written', 'Voice memos', 'Sketching/Doodling'],
+  },
+  {
+    id: 9,
+    section: 'Section 5: Social & Collaborative',
+    text: 'How do you feel about group learning sessions?',
+    options: ['Highly effective', 'Occasionally useful', 'Prefer solo', 'Only for review'],
+  },
+  {
+    id: 10,
+    section: 'Section 5: Social & Collaborative',
+    text: 'How do you prefer to receive feedback on your progress?',
+    options: ['Visual charts', 'Written reports', 'Verbal discussion', 'Practical results'],
+  },
+  {
+    id: 11,
+    section: 'Section 6: Exploration Style',
+    text: 'When learning a new skill, do you prefer:',
+    options: ['Structured curriculum', 'Random exploration', 'Following a mentor', 'Trial and error'],
+  },
+  {
+    id: 12,
+    section: 'Section 6: Exploration Style',
+    text: 'How often do you take breaks during a deep focus session?',
+    options: ['Every 25 mins', 'Every hour', 'Every 2 hours', 'Never until finished'],
+  },
+  {
+    id: 13,
+    section: 'Section 7: Motivation & Drive',
+    text: 'What motivates you most to complete a learning mission?',
+    options: ['Personal growth', 'External rewards', 'Solving the puzzle', 'Helping others'],
+  },
+  {
+    id: 14,
+    section: 'Section 7: Motivation & Drive',
+    text: 'How do you respond to complex structural patterns?',
+    options: ['Analytical', 'Intuitive', 'Systemic', 'Experimental'],
+  },
+  {
+    id: 15,
+    section: 'Section 8: Sensory Input',
+    text: 'Which sense do you rely on most when exploring new concepts?',
+    options: ['Sight', 'Touch', 'Hearing', 'Intuition'],
+  },
+  {
+    id: 16,
+    section: 'Section 8: Sensory Input',
+    text: 'Do you prefer learning through abstract theory or concrete examples?',
+    options: ['Pure Theory', 'Mostly Theory', 'Mostly Examples', 'Concrete Only'],
+  },
+  {
+    id: 17,
+    section: 'Section 9: Problem Solving',
+    text: 'When stuck on a difficult concept, you usually:',
+    options: ['Keep pushing', 'Take a walk', 'Ask for help', 'Switch tasks'],
+  },
+  {
+    id: 18,
+    section: 'Section 9: Problem Solving',
+    text: 'How do you prefer to document your findings?',
+    options: ['Detailed reports', 'Quick summaries', 'Visual boards', 'Actionable steps'],
+  },
+  {
+    id: 19,
+    section: 'Section 10: Information Density',
+    text: 'Do you prefer information delivered in:',
+    options: ['Small bites', 'Medium modules', 'Deep dives', 'Continuous flow'],
+  },
+  {
+    id: 20,
+    section: 'Section 10: Information Density',
+    text: 'How quickly do you like to move through new material?',
+    options: ['Slow & steady', 'Moderate pace', 'Fast & intense', 'Variable speed'],
+  },
+  {
+    id: 21,
+    section: 'Section 11: Digital Interaction',
+    text: 'What is your preferred digital learning interface?',
+    options: ['Minimalist text', 'Interactive cards', 'Video-centric', 'Gamified'],
+  },
+  {
+    id: 22,
+    section: 'Section 11: Digital Interaction',
+    text: 'How do you feel about AI-assisted learning paths?',
+    options: ['Essential', 'Helpful', 'Skeptical', 'Prefer human only'],
+  },
+  {
+    id: 23,
+    section: 'Section 12: Creative Synthesis',
+    text: 'How do you apply what you have learned?',
+    options: ['Teaching others', 'Building projects', 'Writing articles', 'Internal reflection'],
+  },
+  {
+    id: 24,
+    section: 'Section 12: Creative Synthesis',
+    text: 'Do you prefer to master one topic or explore many?',
+    options: ['Deep Specialist', 'T-Shaped', 'Generalist', 'Polymath'],
+  },
+  {
+    id: 25,
+    section: 'Section 13: Future Outlook',
+    text: 'What is your ultimate goal for this learning profile?',
+    options: ['Skill mastery', 'Career shift', 'Pure curiosity', 'Self-optimization'],
+  },
+];
+
+export const MOCK_PROFILE = {
+  code: 'V-HS-F',
+  style: 'Visual Primacy',
+  focus: 'Deep Concentration',
+  memory: 'Associative Recall',
+  environment: 'Low-Orbit Flux',
+  scores: {
+    visual: 88,
+    kinesthetic: 25,
+    auditory: 15,
+    focus: 92,
+    reading: 74,
+    logic: 95,
+    memory: 60,
+    social: 40,
+  },
+};
